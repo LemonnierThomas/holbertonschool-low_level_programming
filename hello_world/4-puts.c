@@ -1,8 +1,9 @@
-int main(void)
-{
-  char Prgm[] = "Programming is like building a multilingual puzzle"
-  
-  Puts(Prgm);
-
-return 0;
+#include<stdio.h>
+int main()
+{	
+    char Prgm[] = "Programming is like building a multilingual puzzle";
+    
+    puts(Prgm);
+    
+    return 0;
 }
