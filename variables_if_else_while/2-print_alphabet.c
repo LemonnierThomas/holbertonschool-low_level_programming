@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - program
@@ -6,10 +8,13 @@
 */
 
 int main(void)
+
 {
-	char c = 'a';
-	while (c < 122)
-		putchar(c,c++);
-			
-	return (0);
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
+		{
+			putchar(c);
+		}
+	putchar('\n');
+	return 0;
 }
