@@ -17,5 +17,6 @@ int print_last_digit(int a)
 	{
 		a = -a;
 	}
+	_putchar('a')
 	return (last_digit);
 }
