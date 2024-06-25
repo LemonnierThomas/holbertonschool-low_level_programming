@@ -1,25 +1,24 @@
 #include "main.h"
 
 /**
- * print_diagonal - print numbers in loop
- * @n: nombre de fois qu'il se repete
+ * print_square - print square
+ * @size: taille du carrÃ.
  */
 
 void print_square(int size)
 {
-	int i;
 	int g;
+	int i;
 
-	if (n > 0)
-	for (i = 0; i < n; i++)
-	{
-		for (g = 0; g < i; g++)
+	if (size > 0)
+		for (i = 0; i < size; i++)
 		{
-			_putchar(' ');
+			for (g = 0; g < size; g++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
-	}
 	else
 		_putchar ('\n');
 }
