@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - main function.
@@ -14,9 +15,9 @@ int main(int argc __attribute__((unused)), char *argv[])
 
 	while (*c)
 	{
-		_putchar(*c);
+		putchar(*c);
 		c++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
