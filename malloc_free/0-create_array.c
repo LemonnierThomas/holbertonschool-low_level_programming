@@ -8,7 +8,7 @@
  * @size: taille du tableau.
  * @c: char du tableau.
  *
- * return: NULL si size = 0 ou si fail, sinon return str.
+ * Return: NULL si size = 0 ou si fail, sinon return str.
  */
 
 char *create_array(unsigned int size, char c)
@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return ('\0');
 	}
-	
+
 	str = (char *)malloc(size * sizeof(char));
 
 	if (str == NULL)
