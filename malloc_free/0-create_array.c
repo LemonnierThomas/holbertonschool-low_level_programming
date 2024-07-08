@@ -3,14 +3,27 @@
 #include <stdio.h>
 
 /**
+ * create_array - creates an array of chars, and initializes
+ * it with a specific char.
+ * @size: taille du tableau.
+ * @c: char du tableau.
  *
+ * return: NULL si size = 0 ou si fail, sinon return str.
  */
 
-char *create_array(unsigned int size, char c)*
+char *create_array(unsigned int size, char c)
 {
+	unsigned int n;
+
+	char *str = (char *)malloc(size * sizeof(char));
+
 	if (size == 0)
 	{
-		return (0);
+		return ('\0');
 	}
-
+	for (n == 0; n < size; n++)
+	{
+		str[n] = c;
+	}
+	return (str);
 }
