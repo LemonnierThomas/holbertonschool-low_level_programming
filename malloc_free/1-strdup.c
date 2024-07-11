@@ -14,7 +14,7 @@
 
 char *_strdup(char *str)
 {
-	size_t len;
+	unsigned int len;
 	char *duplicate;
 
 	if (str == NULL)
