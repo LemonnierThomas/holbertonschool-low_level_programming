@@ -3,15 +3,13 @@
 #include <stddef.h>
 
 /**
- * array_iterator - aa
+ * int_index - aa
  * @array: aa
  * @size: aa
- * @action: aa
+ * @cmp: aa
  *
- * return: aa
+ * Return: return -1 or i
  */
-
-#include <stdio.h>
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
